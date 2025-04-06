@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+
+body{
+    font-family: 'Satoshi', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+::selection{
+    background-color: white;
+    color: black;
+}
