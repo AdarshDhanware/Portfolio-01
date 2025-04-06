@@ -7,12 +7,12 @@ function LastPage() {
     return (
         <div className='px-10 py-4 mt-10 bg-zinc-950 rounded-3xl'>
             {/* top head */}
-            <div className='py-5 px-28 flex justify-center md:justify-end'>
+            <div className='py-5 px-3 sm:px-28 flex md:justify-end'>
                 <motion.div
                 initial={{y:10,opacity:0}}
                 whileInView={{y:0,opacity:1}}
                 transition={{duration:0.5}}
-                className='flex gap-5 md:gap-10'>
+                className='flex flex-col md:flex-row gap-3 md:gap-10'>
                     <NavBarBtn name="linkedin" link="https://www.linkedin.com/in/adarsh-dhanware" />
                     <NavBarBtn name="twitter" link="https://x.com/adarsh_dhanware?t=mwx43zVGwu-ms8kHpu-gJA&s=08" />
                     <NavBarBtn name="github" link="https://github.com/AdarshDhanware/" />

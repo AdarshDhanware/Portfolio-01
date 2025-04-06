@@ -15,7 +15,7 @@ function HomePage() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.5 }}
-            className='text-5xl sm:text-8xl lg:text-9xl'>I create <br />
+            className='text-4xl sm:text-8xl lg:text-9xl'>I create <br />
             <span className='italic px-2 md:px-4 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text'>
               {word.split("").map((char, i) => (
                 <motion.span

@@ -19,7 +19,7 @@ function ProjectComponent({ name, summary, src, tech }) {
         </button>
       </div>
 
-      <div className="max-w-6xl max-h-0 overflow-hidden opacity-0 transition-all duration-500 group-hover:max-h-80 group-hover:opacity-100">
+      <div className="max-w-6xl max-h-0 overflow-hidden opacity-0 transition-all duration-500 group-hover:max-h-screen group-hover:opacity-100">
         <div className="px-5 md:px-10 mt-2">
           <p className="text-sm md:text-xl">{summary}</p>
         </div>
@@ -31,10 +31,10 @@ function ProjectComponent({ name, summary, src, tech }) {
           Link <GoArrowUpRight size={24} />
         </button>
 
-        <span className="transition-all duration-500 mt-3 md:px-10 px-5 text-xl md:text-3xl hover:bg-gradient-to-bl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text italic">
+        <span className="transition-all duration-500 mt-3 md:px-10 px-5 text-md sm:text-xl md:text-3xl hover:bg-gradient-to-bl bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text italic">
           Technologies used -
         </span>
-        <div className="px-5 md:px-10 mt-1 flex flex-col text-md md:text-xl ">
+        <div className="px-5 md:px-10 mt-1 flex flex-col text-sm sm:text-md md:text-xl ">
           {tech.map((key, index) => (
             <span key={index}>{key}</span>
           ))}

@@ -31,7 +31,7 @@ function Projects() {
 
   return (
     <div className='px-3 md:px-20 py-14 mt-10 bg-zinc-950 rounded-3xl'>
-      <span className='px-10 text-5xl md:text-7xl uppercase italic bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text hover:bg-gradient-to-bl'>Projects</span>
+      <span className='text-4xl md:text-7xl px-10 italic bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text uppercase '>Projects</span>
       <div className='flex flex-col gap-10 px-3 mt-14'>
         {items.map((key, index) => <ProjectComponent key={index} name={key.name} summary={key.summary} src={key.src} tech={key.tech} />)}
       </div>

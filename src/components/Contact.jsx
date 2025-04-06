@@ -41,10 +41,10 @@ function Contact() {
 
 
 return (
-    <div className='px-10 py-20 mt-10 bg-zinc-950 rounded-3xl'>
+    <div className='px-3 sm:px-10 py-20 mt-10 bg-zinc-950 rounded-3xl'>
         <div className='md:px-10 flex flex-col xl:flex-row gap-10 justify-between items-center'>
             <div>
-                <span className='text-6xl uppercase px-22 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text italic'>contact</span>
+                <span className='text-4xl md:text-7xl uppercase px-22 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text italic'>contact</span>
                 {(success) ? (
                     <h1 className={`text-md md:text-xl px-22 uppercase ${(success) ? 'visible' : 'hidden'}`}>Response sent successfully!</h1>
                 ) :(
@@ -55,9 +55,9 @@ return (
             </div>
 
             <div className='w-full md:w-xl'>
-                <form ref={formRef} className='p-5 border gap-5 rounded-2xl flex flex-col' onSubmit={handleSubmit}>
+                <form ref={formRef} className='p-3 md:p-5 border gap-3 md:gap-5 rounded-2xl flex flex-col' onSubmit={handleSubmit}>
                     <input
-                        className='border rounded-md px-3 py-2 text-xl'
+                        className='border rounded-lg md:rounded-md px-2 md:px-3 py-1 md:py-2 text-xl'
                         type="text"
                         name="name"
                         placeholder="Your Name"
@@ -72,7 +72,7 @@ return (
                     />
 
                     <input
-                        className='border rounded-md px-3 py-2 text-xl'
+                        className='border rounded-lg md:rounded-md px-2 md:px-3 py-1 md:py-2 text-xl'
                         type="email"
                         name="email"
                         placeholder="Your Email"
@@ -87,7 +87,7 @@ return (
                     />
 
                     <textarea
-                        className='border rounded-xl px-3 py-2 text-xl resize-none h-52'
+                        className='border rounded-lg md:rounded-md px-2 md:px-3 py-1 md:py-2 text-xl resize-none h-52'
                         name="message"
                         placeholder="Your Message"
                         value={message}

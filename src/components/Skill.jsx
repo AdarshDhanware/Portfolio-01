@@ -96,7 +96,7 @@ function Skill() {
 
   return (
     <div className='px-3 md:px-20 py-14 mt-10 bg-zinc-950 rounded-3xl'>
-      <span className='text-5xl md:text-7xl px-10 italic bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text uppercase '>skills</span>
+      <span className='text-4xl md:text-7xl px-10 italic bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text uppercase '>skills</span>
 
       <div>
         <div className='flex flex-col gap-10 mt-14 px-5'>
