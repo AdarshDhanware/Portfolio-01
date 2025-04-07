@@ -2,19 +2,19 @@ import React from 'react'
 import SkillComponent from './SkillComponent'
 import { motion } from 'motion/react'
 
-import cpp from "../assets/c_plus_plus_icon.png"
-import css_logo from "../assets/css_icon.png"
-import express from "../assets/express_icon_.png"
-import git from "../assets/git_icon.png"
-import github from "../assets/github_icon_.png"
-import html_icon from "../assets/html_icon.png"
-import java_icon from "../assets/java.png"
-import js_icon from "../assets/js_icon.png"
-import mongo from "../assets/mongo_db_icon.png"
-import node_icon from "../assets/node_icon.png"
-import postman from "../assets/postman-icon.png"
-import react_logo from "../assets/react_icon.png"
-import vs_code from "../assets/vs_code_icon.png"
+import cpp from "../assets/icons/c_plus_plus_icon.png"
+import css_logo from "../assets/icons/css_icon.png"
+import express from "../assets/icons/express_icon_.png"
+import git from "../assets/icons/git_icon.png"
+import github from "../assets/icons/github_icon_.png"
+import html_icon from "../assets/icons/html_icon.png"
+import java_icon from "../assets/icons/java.png"
+import js_icon from "../assets/icons/js_icon.png"
+import mongo from "../assets/icons/mongo_db_icon.png"
+import node_icon from "../assets/icons/node_icon.png"
+import postman from "../assets/icons/postman-icon.png"
+import react_logo from "../assets/icons/react_icon.png"
+import vs_code from "../assets/icons/vs_code_icon.png"
 
 
 function Skill() {

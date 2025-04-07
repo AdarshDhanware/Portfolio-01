@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "motion/react";
 
-function ProjectComponent({ name, summary, src, tech, project }) {
+function ProjectComponent({ name, summary, src, tech, project ,poster_image}) {
   const [hov, setHover] = useState(false);
   return (
     <motion.div
@@ -45,7 +45,15 @@ function ProjectComponent({ name, summary, src, tech, project }) {
           </div>
           {hov && (
             <div className="px-5 md:px-10 mt-3 w-full max-w-2xl overflow-hidden rounded-xl  ">
-              <video src={project} autoPlay muted loop className="w-full h-auto object-cover rounded-xl" />
+              <video
+              src={project}
+              autoPlay 
+              muted
+              loop
+              playsInline
+              controls={false}
+              poster={poster_image}
+              preload="none"className="w-full h-auto object-cover rounded-xl" />
             </div>
           )}
         </div>
