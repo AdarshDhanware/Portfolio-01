@@ -1,12 +1,96 @@
-# React + Vite
+# 🌐 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal developer portfolio website built with **React.js**, showcasing my projects, skills, and ways to get in touch. The design is clean, responsive, and dynamic — with smooth animations and interaction effects powered by **Framer Motion**. It also includes a working contact form using **Formspree** for real-time feedback and email submissions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Live Preview
 
-## Expanding the ESLint configuration
+> 🌐 [Visit the Live Site](https://portfolio-adarsh-dhanware-01.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/
+│   ├── icons/
+│   ├── images/
+│   └── videos/
+├── components/
+├── App.jsx
+├── index.css
+├── main.jsx
+```
+
+- **assets/**: Static files like icons, images, and preview videos used across the website.
+- **components/**: All reusable and individual components (navbar, projects, contact form, etc.).
+- **App.jsx**: Main component that contains the routing and layout structure.
+- **index.css**: Custom global styling.
+- **main.jsx**: React root renderer.
+- **.env**: Contains environment variables (e.g., Formspree endpoint).
+
+---
+
+## 🚀 Tech Stack
+
+- **React.js** – Frontend Framework
+- **Tailwind CSS** – Styling utility
+- **Framer Motion** – For smooth page and element animations
+- **Formspree** – To handle contact form submissions
+- **Vite** – Fast bundler and dev server
+
+---
+
+## ✨ Features
+
+- 🖥️ Fully responsive design
+- 🟜️ Video previews for projects
+- 🧑‍💻 Clean and modern UI/UX
+- 🎞️ Smooth animations with Framer Motion
+- 📬 Contact form with Formspree integration
+
+---
+
+## 🔧 Setup & Installation
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/your-username/your-portfolio.git
+cd your-portfolio
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Add your environment variable**
+Create a `.env` file in the root with your Formspree ID:
+
+```env
+VITE_FORMS_PREE_URL=your_formspree_project_key
+```
+
+4. **Start the development server**
+```bash
+npm run dev
+```
+
+---
+
+## 📬 Contact
+
+Feel free to reach out via the contact form on the site — your messages will go straight to my inbox via Formspree!
+
+---
+
+## 📜 License
+
+This project is open-source and free to use for learning or building your own portfolio.
+
+---
+
+**Made with ❤️ using React, Tailwind CSS & Framer Motion**
+
