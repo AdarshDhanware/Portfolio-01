@@ -40,7 +40,7 @@ function LastPage() {
             transition={{duration:0.5}}
              className='mt-28 gap-5 flex items-center flex-col-reverse md:flex-row justify-between text-lg'>
                 <h2>©2025-All Rights Reserved.</h2>
-                <h2>Available for freelance work.</h2>
+                <h2>Open to freelance projects, internships, full-time roles, and remote opportunities.</h2>
             </motion.div>
         </div>
     )
