@@ -42,7 +42,7 @@ function HomePage() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.7, ease: "easeOut" }}
-            className='md:text-lg'>Available for freelance work.</motion.p>
+            className='md:text-lg text-sm'>Open to freelance projects, internships, full-time roles, and remote opportunities.</motion.p>
           <motion.div
             animate={{ y: [0, -3, 0] }}
             transition={{
@@ -50,7 +50,7 @@ function HomePage() {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className='flex items-center hover:underline text-sm md:text-md px-3 py-2 md:px-3 md:py-2 rounded-full gap-2 border-2 uppercase'>scroll-down <FiArrowDownCircle size={24} /> </motion.div>
+            className='flex items-center hover:underline hover:border-white transition-all duration-500 text-sm md:text-md px-3 py-2 md:px-3 md:py-2 rounded-full gap-2 border border-gray-600 text-gray-300 uppercase'>scroll-down <FiArrowDownCircle size={24} /> </motion.div>
         </div>
       </div>
     </>

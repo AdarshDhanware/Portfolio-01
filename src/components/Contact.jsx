@@ -55,9 +55,9 @@ return (
             </div>
 
             <div className='w-full md:w-xl'>
-                <form ref={formRef} className='p-3 md:p-5 border gap-3 md:gap-5 rounded-2xl flex flex-col' onSubmit={handleSubmit}>
+                <form ref={formRef} className='p-3 md:p-5 gap-3 md:gap-5 rounded-2xl flex flex-col' onSubmit={handleSubmit}>
                     <input
-                        className='border rounded-lg md:rounded-md px-2 md:px-3 py-1 md:py-2 text-xl'
+                        className='border-b outline-0 border-gray-600 px-2 md:px-3 py-1 md:py-2 text-xl'
                         type="text"
                         name="name"
                         placeholder="Your Name"
@@ -72,7 +72,7 @@ return (
                     />
 
                     <input
-                        className='border rounded-lg md:rounded-md px-2 md:px-3 py-1 md:py-2 text-xl'
+                        className='border-b outline-0 border-gray-600 px-2 md:px-3 py-1 md:py-2 text-xl'
                         type="email"
                         name="email"
                         placeholder="Your Email"
@@ -87,7 +87,7 @@ return (
                     />
 
                     <textarea
-                        className='border rounded-lg md:rounded-md px-2 md:px-3 py-1 md:py-2 text-xl resize-none h-52'
+                        className='border outline-0 rounded-lg border-gray-600 px-2 md:px-3 py-1 md:py-2 text-xl resize-none h-52'
                         name="message"
                         placeholder="Your Message"
                         value={message}
@@ -101,7 +101,7 @@ return (
                     />
 
                     <button
-                        className='border hover:cursor-pointer rounded-2xl flex text-xl justify-center items-center gap-3 px-5 py-2 uppercase'
+                        className='border outline-0 text-gray-400 border-gray-600 hover:cursor-pointer rounded-2xl flex text-xl justify-center items-center gap-3 px-5 py-2 uppercase'
                         type='submit'
                     >
                         Send <BsSend />

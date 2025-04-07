@@ -27,7 +27,7 @@ function LastPage() {
                 whileInView={{y:0,opacity:1}}
                 transition={{duration:0.5,delay:0.3,ease:"easeOut"}} 
                 className='mt-18'>
-                    <button className='text-md flex items-center uppercase border-2 px-3 md:px-5 py-2 rounded-full transition-all duration-300 hover:underline'
+                    <button className='text-md flex items-center uppercase hover:border-white border border-gray-600 text-gray-300 px-3 md:px-5 py-2 rounded-full transition-all duration-300 hover:underline'
                     onClick={()=>window.open("https://www.linkedin.com/in/adarsh-dhanware")}
                     > let's talk <GoArrowUpRight size={24} /> </button>
                 </motion.div>

@@ -11,7 +11,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-black p-5 md:p-10 overflow-hidden w-screen h-full text-white'>
+    <div className='bg-black p-5 md:p-10 overflow-hidden w-screen h-full text-gray-300'>
       <Progress/>
       <HomePage />
       <Intro />
